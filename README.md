@@ -1,10 +1,10 @@
 # Calculator
 Group assignment of :
-Addition -Kajal sharma
+Addition -khushal shrimal
 Subtraction-Divyanshi vijay
 Multiplication- Tanvi mathur
 Division- Khemchand saini
-Power-Khushal shrimal
+Power-kajal sharma
 Modulus-Khushbu suwalka
 Floor division-Kanishka joshi
 Sqrt- Lakshya bhandari

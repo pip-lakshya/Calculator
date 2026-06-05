@@ -1,6 +1,3 @@
-import math
-def sqrt(x):
-    return math.sqrt(x)
 
 while True:
     choice=int(input("""Enter a number to choose from 
@@ -28,8 +25,7 @@ while True:
     elif(choice==7):
         pass
     elif(choice==8):
-        num=int(input("Enter a number: "))
-        print("The square root of ",num," is ",sqrt(num))
+        pass
     elif(choice==9):
         print("Exiting the calculator")
         break

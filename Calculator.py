@@ -14,7 +14,10 @@ while True:
         8. Sqrt
         9. Exit\n"""))
     if(choice==1):
-        pass
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        result = num1 + num2
+        print("Addition =", result)
     elif(choice==2):
         pass
     elif(choice==3):

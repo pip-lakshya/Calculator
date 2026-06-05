@@ -32,7 +32,14 @@ while True:
         result = num1 % num2
         print("Remainder =", result)
     elif(choice==7):
-        pass
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+
+        if num2 != 0:
+            print("Floor Division = ",num1 // num2)
+        else:
+            print("Division by Zero is not allowed.")
+            
     elif(choice==8):
         num=int(input("Enter a number: "))
         print("The square root of ",num," is ",sqrt(num))

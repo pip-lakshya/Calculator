@@ -21,7 +21,10 @@ while True:
     elif(choice==2):
         pass
     elif(choice==3):
-        pass
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        result = num1 * num2
+        print("Multiplication =", result)
     elif(choice==4):
         pass
     elif(choice==5):

@@ -19,7 +19,10 @@ while True:
         result = num1 + num2
         print("Addition =", result)
     elif(choice==2):
-        pass
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+        result = num1 - num2
+        print("Subtraction =", result)
     elif(choice==3):
         num1 = int(input("Enter first number: "))
         num2 = int(input("Enter second number: "))

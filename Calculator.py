@@ -29,7 +29,14 @@ while True:
         result = num1 * num2
         print("Multiplication =", result)
     elif(choice==4):
-        pass
+        num1 = int(input("Enter first number: "))
+        num2 = int(input("Enter second number: "))
+
+        if num2 != 0:
+            result = num1 / num2
+            print("Division =", result)
+        else:
+            print("Division by Zero is not allowed.")
     elif(choice==5):
         pass
     elif(choice==6):

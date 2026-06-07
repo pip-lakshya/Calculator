@@ -38,7 +38,11 @@ while True:
         else:
             print("Division by Zero is not allowed.")
     elif(choice==5):
-        pass
+         num1 = int(input("Enter first number: "))
+         num2 = int(input("Enter second number: "))
+         result = num1 ** num2
+         print("Power =", result)
+         
     elif(choice==6):
         num1 = int(input("Enter first number: "))
         num2 = int(input("Enter second number: "))
